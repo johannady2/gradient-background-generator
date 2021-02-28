@@ -1,12 +1,12 @@
 var css = document.querySelector('h3');
-//ar color1 = document.getElementsByClassName('color1');//returns an array
+//var color1 = document.getElementsByClassName('color1');//returns an array
 var color1 = document.querySelector('.color1');
 var color2 = document.querySelector('.color2');
 var randomizeBtn = document.querySelector('.randomize');
 var body = document.querySelector('body');
 
 changeBackgroundColor();
-showCurrentCSS();
+
 
 
 console.log(css);
